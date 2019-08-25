@@ -19,7 +19,7 @@ from StocksPricesRetriever import StockPricesDAO, DBUtils
 #     StockPricesDAO.addSymbol(symbol, symbolName, price)
 
 def retrieveAndAddCurrentStockPrices(pricesSchema):
-    print('retrieveAndAddCurrentStockPrices is running...')
+    print('RetrieveAndAddCurrentStockPrices is running...')
     reps = 0
     while (True):
         try:
