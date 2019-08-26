@@ -1,7 +1,9 @@
 import datetime
+import time
 import traceback
 
-from StocksPricesRetriever import StockPricesDAO, DBUtils
+from StocksPricesRetriever import StockPricesDAO
+from Utils import DBUtils
 
 
 # https://financialmodelingprep.com/developer/docs/#Stock-Price
@@ -27,9 +29,10 @@ def retrieveAndAddCurrentStockPrices(pricesSchema):
 
             dic = StockPricesDAO.getSymbolsPrices()
             for v in dic['stockList']:
-                StockPricesDAO.addSymbolPrice(conn, pricesSchema, v['symbol'], v['price'], datetime.datetime.utcnow())
+                StockPricesDAO.addStockSymbolPrice(conn, pricesSchema, v['symbol'], v['price'], datetime.datetime.utcnow())
             reps = reps + 1
             print('Run:' + str(reps))
+            time.sleep(30)
 
         except:
             print(traceback.print_exc())

@@ -13,7 +13,7 @@ def getSymbolsPrices():
     r = requests.get(url)
     return json.loads(r.text)
 
-def addSymbol(conn, pricesSchema, symbol, symbolName, price):
+def addSymbolInfo(conn, pricesSchema, symbol, symbolName, price):
     # create a cursor
     cur = conn.cursor()
 
@@ -31,7 +31,7 @@ def addSymbol(conn, pricesSchema, symbol, symbolName, price):
     # close the communication with the PostgreSQL
     cur.close()
 
-def addSymbolPrice(conn, pricesSchema, symbol, price, date_added):
+def addStockSymbolPrice(conn, pricesSchema, symbol, price, date_added):
     # create a cursor
     cur = conn.cursor()
 
