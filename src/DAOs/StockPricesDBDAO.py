@@ -21,6 +21,5 @@ def getStockPrice(conn, pricesSchema, date_added):
     return resultList
 
 
-stockPriceList = getStockPrice(DBUtils.getPostgresConnection(), 'pricesarchiver',
-                               datetime.datetime.utcnow() - datetime.timedelta(days=0.1))
-print(len(stockPriceList))
+
+
