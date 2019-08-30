@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d053cd-fc57-42f3-98ce-b33e7d74b740" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StocksPricesRetriever/src/Objects/FetchStock.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PriceArchiver$StockPricesDBDAO.coverage" NAME="StockPricesDBDAO Coverage Results" MODIFIED="1567185976491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StocksPricesRetriever/src/DAOs" />
+    <SUITE FILE_PATH="coverage/PriceArchiver$StockPricesDBDAO.coverage" NAME="StockPricesDBDAO Coverage Results" MODIFIED="1567187095021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StocksPricesRetriever/src/DAOs" />
     <SUITE FILE_PATH="coverage/pricesArchiver$CorePriceRetriever.coverage" NAME="CorePriceRetriever Coverage Results" MODIFIED="1566580488636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StocksPricesRetriever" />
     <SUITE FILE_PATH="coverage/pricesArchiver$pricesRetriever.coverage" NAME="pricesRetriever Coverage Results" MODIFIED="1566022782947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PricerArchiver$CorePriceRetriever.coverage" NAME="CorePriceRetriever Coverage Results" MODIFIED="1566731040190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StocksPricesRetriever" />
@@ -60,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -87,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/HistoricalStockPricesDAO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -96,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="400">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -109,10 +110,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/Objects/FetchStock.py">
+        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Utils/DBUtils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="250">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#193#311#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,12 +161,13 @@
         <option value="$PROJECT_DIR$/StocksPricesRetriever/HistoricalPricesRetriever.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/DAOs/HistoricalStockPricesDAO.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/Analytics/AnalyticsModule.py" />
-        <option value="$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/src/PricesRetriever.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/HistoricalStockPricesDAO.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/src/Objects/FetchStock.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py" />
+        <option value="$PROJECT_DIR$/StocksPricesRetriever/Utils/DBUtils.py" />
+        <option value="$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py" />
       </list>
     </option>
   </component>
@@ -209,6 +214,12 @@
               <item name="StocksPricesRetriever" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PriceArchiver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PriceArchiver" type="462c0819:PsiDirectoryNode" />
+              <item name="StocksPricesRetriever" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,7 +397,7 @@
       <workItem from="1565993299398" duration="2242000" />
       <workItem from="1566022538175" duration="20366000" />
       <workItem from="1566730919739" duration="822000" />
-      <workItem from="1566731769063" duration="12318000" />
+      <workItem from="1566731769063" duration="13650000" />
     </task>
     <task id="LOCAL-00001" summary="1) Refactor code.">
       <created>1566731068389</created>
@@ -423,11 +434,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567179669928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1) Implement fetch method.">
+      <created>1567186009259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567186009259</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1) Improve DBUtils functions.">
+      <created>1567187131900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567187131900</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47790000" />
+    <option name="totallyTimeSpent" value="49122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -439,7 +464,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32502708" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3066089" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.21451788" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -463,7 +488,9 @@
     <MESSAGE value="1) Refactor code." />
     <MESSAGE value="1) Create analytics module." />
     <MESSAGE value="1) Refactor schema." />
-    <option name="LAST_COMMIT_MESSAGE" value="1) Refactor schema." />
+    <MESSAGE value="1) Implement fetch method." />
+    <MESSAGE value="1) Improve DBUtils functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="1) Improve DBUtils functions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -475,28 +502,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py</url>
-          <line>35</line>
+          <line>27</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="11" />
+          <line>16</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -598,49 +610,12 @@
     <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/Analytics/AnalyticsModule.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Utils/DBUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/HistoricalStockPricesDAO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/PricesRetriever.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="38" selection-start-line="38" selection-end-line="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,12 +637,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Utils/DBUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#193#311#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDBDAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="400">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/HistoricalStockPricesDAO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
