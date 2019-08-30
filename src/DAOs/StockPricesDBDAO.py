@@ -1,8 +1,8 @@
 import datetime
 import traceback
 
-from StocksPricesRetriever.src.Utils import DBUtils
-from StocksPricesRetriever.src.Objects.FetchStock import FetchStock
+from src.Utils import DBUtils
+from src.Objects.FetchStock import FetchStock
 
 
 def getStockPrice(conn, pricesSchema, date_added):

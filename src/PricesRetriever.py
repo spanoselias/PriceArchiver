@@ -2,7 +2,7 @@ import datetime
 import time
 import traceback
 
-from StocksPricesRetriever.src.Utils import DBUtils
+from src.Utils import DBUtils
 
 # https://financialmodelingprep.com/developer/docs/#Stock-Price
 # https://api.iextrading.com/1.0/ref-data/symbols
@@ -17,7 +17,7 @@ from StocksPricesRetriever.src.Utils import DBUtils
 #     price = v['price']
 #     print('Symbol:' + symbol + ' ' + 'SymbolName:' + symbolName + ' ' + 'Price:' + str(price))
 #     StockPricesDAO.addSymbol(symbol, symbolName, price)
-from StocksPricesRetriever.src.DAOs import StockPricesDAO
+from src.DAOs import StockPricesDAO
 
 
 def retrieveAndAddCurrentStockPrices(pricesSchema):
