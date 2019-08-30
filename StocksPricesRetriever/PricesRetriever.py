@@ -2,7 +2,7 @@ import datetime
 import time
 import traceback
 
-from StocksPricesRetriever import StockPricesDAO
+from StocksPricesRetriever.DAOs import StockPricesDAO
 from Utils import DBUtils
 
 

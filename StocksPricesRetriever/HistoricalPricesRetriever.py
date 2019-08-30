@@ -1,7 +1,7 @@
 import time
 import traceback
 
-from StocksPricesRetriever import StockPricesDAO, HistoricalStockPricesDAO
+from StocksPricesRetriever.DAOs import StockPricesDAO, HistoricalStockPricesDAO
 from Utils import DBUtils
 
 
@@ -18,7 +18,6 @@ def retrieveAndAddHistoricalStockPrices(pricesSchema):
                 try:
                     historicalPricesForGivenSymbol = HistoricalStockPricesDAO.getHistoricalPrice(symbol)
                 except:
-                    print(traceback.print_exc())
                     time.sleep(180)
                     while len(historicalPricesForGivenSymbol) == 0:
                         try:
