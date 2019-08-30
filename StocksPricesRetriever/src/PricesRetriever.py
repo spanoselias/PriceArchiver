@@ -2,7 +2,6 @@ import datetime
 import time
 import traceback
 
-from src.DAOs import StockPricesDAO
 from StocksPricesRetriever.Utils import DBUtils
 
 
@@ -19,6 +18,8 @@ from StocksPricesRetriever.Utils import DBUtils
 #     price = v['price']
 #     print('Symbol:' + symbol + ' ' + 'SymbolName:' + symbolName + ' ' + 'Price:' + str(price))
 #     StockPricesDAO.addSymbol(symbol, symbolName, price)
+from StocksPricesRetriever.src.DAOs import StockPricesDAO
+
 
 def retrieveAndAddCurrentStockPrices(pricesSchema):
     print('RetrieveAndAddCurrentStockPrices is running...')

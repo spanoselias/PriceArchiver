@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d053cd-fc57-42f3-98ce-b33e7d74b740" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StocksPricesRetriever/Analytics/AnalyticsModule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StocksPricesRetriever/HistoricalPricesRetriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/StocksPricesRetriever/HistoricalPricesRetriever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StocksPricesRetriever/HistoricalStockPricesDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/StocksPricesRetriever/DAOs/HistoricalStockPricesDAO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StocksPricesRetriever/PricesRetriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/StocksPricesRetriever/PricesRetriever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StocksPricesRetriever/StockPricesDAO.py" beforeDir="false" afterPath="$PROJECT_DIR$/StocksPricesRetriever/DAOs/StockPricesDAO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +37,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/PricesRetriever.py">
+        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/PricesRetriever.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="950">
               <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
@@ -52,7 +49,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/DAOs/StockPricesDAO.py">
+        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDAO.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -64,10 +61,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/CorePriceRetriever.py">
+        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -75,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/HistoricalPricesRetriever.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="425">
+              <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -87,13 +84,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Analytics/AnalyticsModule.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/Analytics/AnalyticsModule.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/DAOs/HistoricalStockPricesDAO.py">
+        <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/HistoricalStockPricesDAO.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -144,6 +141,8 @@
         <option value="$PROJECT_DIR$/StocksPricesRetriever/HistoricalPricesRetriever.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/DAOs/HistoricalStockPricesDAO.py" />
         <option value="$PROJECT_DIR$/StocksPricesRetriever/Analytics/AnalyticsModule.py" />
+        <option value="$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py" />
+        <option value="$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py" />
       </list>
     </option>
   </component>
@@ -169,18 +168,20 @@
             <path>
               <item name="PriceArchiver" type="b2602c69:ProjectViewProjectNode" />
               <item name="PriceArchiver" type="462c0819:PsiDirectoryNode" />
-              <item name="ScheduleTasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PriceArchiver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PriceArchiver" type="462c0819:PsiDirectoryNode" />
               <item name="StocksPricesRetriever" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PriceArchiver" type="b2602c69:ProjectViewProjectNode" />
               <item name="PriceArchiver" type="462c0819:PsiDirectoryNode" />
               <item name="StocksPricesRetriever" type="462c0819:PsiDirectoryNode" />
-              <item name="Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PriceArchiver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PriceArchiver" type="462c0819:PsiDirectoryNode" />
+              <item name="StocksPricesRetriever" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,6 +203,8 @@
       <recent name="C:\Users\HpServer\PycharmProjects\pricesArchiver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HpServer\PycharmProjects\PriceArchiver\StocksPricesRetriever" />
+      <recent name="C:\Users\HpServer\PycharmProjects\PriceArchiver\StocksPricesRetriever\src" />
       <recent name="C:\Users\HpServer\PycharmProjects\PriceArchiver\StocksPricesRetriever\DAOs" />
       <recent name="C:\Users\HpServer\PycharmProjects\PriceArchiver\Utils" />
       <recent name="C:\Users\HpServer\PycharmProjects\pricesArchiver\StocksPricesRetriever" />
@@ -233,7 +236,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StocksPricesRetriever/CorePriceRetriever.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\HpServer\PycharmProjects\PriceArchiver\StocksPricesRetriever\src\CorePriceRetriever.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,7 +335,7 @@
       <workItem from="1565993299398" duration="2242000" />
       <workItem from="1566022538175" duration="20366000" />
       <workItem from="1566730919739" duration="822000" />
-      <workItem from="1566731769063" duration="8049000" />
+      <workItem from="1566731769063" duration="8226000" />
     </task>
     <task id="LOCAL-00001" summary="1) Refactor code.">
       <created>1566731068389</created>
@@ -348,11 +351,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566839379499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1) Create analytics module.">
+      <created>1567179486498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567179486498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1) Refactor schema.">
+      <created>1567179608415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567179608415</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43521000" />
+    <option name="totallyTimeSpent" value="43698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -363,7 +380,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15926327" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17984831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20477815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,13 +403,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1) Refactor code." />
-    <option name="LAST_COMMIT_MESSAGE" value="1) Refactor code." />
+    <MESSAGE value="1) Create analytics module." />
+    <MESSAGE value="1) Refactor schema." />
+    <option name="LAST_COMMIT_MESSAGE" value="1) Refactor schema." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StocksPricesRetriever/PricesRetriever.py</url>
+          <url>file://$PROJECT_DIR$/StocksPricesRetriever/src/PricesRetriever.py</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -456,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/SymbolSchema">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/243443542/psycopg2/_psycopg/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -470,27 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/SymbolSchemadebug.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/DBUtils.py">
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Utils/DBUtils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/DAOs/StockPricesDAO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,7 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/PricesRetriever.py">
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/PricesRetriever.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
@@ -517,7 +512,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/DAOs/HistoricalStockPricesDAO.py">
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Analytics/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/SymbolSchemadebug.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/SymbolSchema">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/Analytics/AnalyticsModule.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/CorePriceRetriever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/HistoricalStockPricesDAO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -527,31 +552,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/CorePriceRetriever.py">
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/DAOs/StockPricesDAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Analytics/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/HistoricalPricesRetriever.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/Analytics/AnalyticsModule.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/StocksPricesRetriever/src/HistoricalPricesRetriever.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

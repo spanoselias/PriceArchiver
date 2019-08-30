@@ -1,6 +1,6 @@
 import _thread
 
-from src import PricesRetriever, HistoricalPricesRetriever
+from StocksPricesRetriever.src import PricesRetriever
 
 print('Retriever is running...')
 

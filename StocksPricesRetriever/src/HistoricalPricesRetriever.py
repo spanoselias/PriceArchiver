@@ -1,8 +1,8 @@
 import time
 import traceback
 
-from src.DAOs import StockPricesDAO, HistoricalStockPricesDAO
 from StocksPricesRetriever.Utils import DBUtils
+from StocksPricesRetriever.src.DAOs import StockPricesDAO, HistoricalStockPricesDAO
 
 
 def retrieveAndAddHistoricalStockPrices(pricesSchema):
