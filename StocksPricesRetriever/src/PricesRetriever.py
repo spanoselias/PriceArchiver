@@ -2,8 +2,8 @@ import datetime
 import time
 import traceback
 
-from StocksPricesRetriever.DAOs import StockPricesDAO
-from Utils import DBUtils
+from src.DAOs import StockPricesDAO
+from StocksPricesRetriever.Utils import DBUtils
 
 
 # https://financialmodelingprep.com/developer/docs/#Stock-Price
