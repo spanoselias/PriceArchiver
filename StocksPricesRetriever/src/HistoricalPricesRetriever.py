@@ -1,7 +1,7 @@
 import time
 import traceback
 
-from StocksPricesRetriever.Utils import DBUtils
+from StocksPricesRetriever.src.Utils import DBUtils
 from StocksPricesRetriever.src.DAOs import StockPricesDAO, HistoricalStockPricesDAO
 
 

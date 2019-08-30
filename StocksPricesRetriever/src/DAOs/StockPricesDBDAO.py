@@ -1,9 +1,7 @@
 import datetime
-import json
 import traceback
-import requests
 
-from StocksPricesRetriever.Utils import DBUtils
+from StocksPricesRetriever.src.Utils import DBUtils
 from StocksPricesRetriever.src.Objects.FetchStock import FetchStock
 
 
