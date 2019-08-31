@@ -14,7 +14,6 @@ def executeSelectQuery(conn, query, constructorObj):
 
     return collectResults(resutSet, constructorObj)
 
-
 def collectResults(resutSet, constructorObj):
     streamList = []
     for rs in resutSet:

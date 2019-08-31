@@ -2,6 +2,7 @@ import json
 import traceback
 import requests
 
+
 def getCurrenciesPrice():
     url = "https://financialmodelingprep.com/api/v3/forex"
     r = requests.get(url)
@@ -12,15 +13,17 @@ def addHistoricalPrice(conn, pricesSchema, AddCurrencyPrice):
     # create a cursor
     cur = conn.cursor()
 
-    insertSQL = "insert into %s.Currencies_Prices(" \
-                "ticker, " \
-                "bid, " \
-                "ask," \
-                "open, " \
-                "high, " \
-                "low, " \
-                "changes, " \
-                "date) values('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % \
+    insertSQL = "insert into %s.Currencies_Prices" \
+                "(" \
+                "   ticker, " \
+                "   bid, " \
+                "   ask," \
+                "   open, " \
+                "   high, " \
+                "   low, " \
+                "   changes, " \
+                "   date" \
+                ") values('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % \
  \
                 (pricesSchema,
                  AddCurrencyPrice.ticker,
