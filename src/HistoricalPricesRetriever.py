@@ -4,7 +4,6 @@ import traceback
 from src.Utils import DBUtils
 from src.DAOs import StockPricesDAO, HistoricalStockPricesDAO
 
-
 def retrieveAndAddHistoricalStockPrices(pricesSchema):
     print('retrieveAndAddHistoricalStockPrices is running...')
     try:

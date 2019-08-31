@@ -2,7 +2,6 @@ import json
 import traceback
 import requests
 
-
 def getCurrenciesPrice():
     url = "https://financialmodelingprep.com/api/v3/forex"
     r = requests.get(url)
