@@ -18,3 +18,14 @@ create table PRICESARCHIVER.StocksHistoricalPrices (
   change_percent float        not null,
   date           varchar(255)    not null
 );
+
+create table PRICESARCHIVER.Currencies_Prices (
+  ticker         varchar(255) not null,
+  bid            float        not null,
+  ask            float        not null,
+  open           float        not null,
+  high           float        not null,
+  low            float        not null,
+  changes        float        not null,
+  date           varchar(255)    not null
+);

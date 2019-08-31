@@ -3,7 +3,6 @@ import datetime
 from src.DAOs import StockPricesDBDAO
 from src.Utils import DBUtils
 
-
 def maxPricePerStock():
     stockPriceList = \
         StockPricesDBDAO.getStockPrice(
