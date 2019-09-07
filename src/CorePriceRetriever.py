@@ -12,5 +12,5 @@ try:
 except:
     print("Error: unable to start thread")
 
-while 1:
+while True:
     pass

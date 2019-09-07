@@ -5,11 +5,14 @@ class FetchStock:
         self.price = resultset[1]
         self.date_added = resultset[2]
 
-    def __get_symbol(self):
+    def __repr__(self):
+        return self.getSymbol() + ':' + str(self.getPrice())
+
+    def getSymbol(self):
         return self.symbol
 
-    def __get_price(self):
+    def getPrice(self):
         return self.price
 
-    def __get_date_added(self):
+    def getDateAdded(self):
         return self.date_added
